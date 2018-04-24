@@ -6,7 +6,13 @@
     if ( isset($argv[2]) &&  $argv[2] ) {
       $post['type'] = $argv[2];
     }
-//$post['debug'] = 'header';
+
+    // Debub, retorna sólo el header parseado
+	//$post['debug'] = 'header';
+
+    // enviando por batch
+	 $post['batch'] = 'yes';
+
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'http://factura.logicaldesign.pe/api/send-document');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
