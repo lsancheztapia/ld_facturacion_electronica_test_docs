@@ -7,11 +7,11 @@
       $post['type'] = $argv[2];
     }
 
-    // Debub, retorna sólo el header parseado
-	//$post['debug'] = 'header';
+    // Debug, retorna sólo el header parseado
+//   $post['debug'] = 'header';
 
     // enviando por batch
-	 $post['batch'] = 'yes';
+//	 $post['batch'] = 'yes';
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'http://factura.logicaldesign.pe/api/send-document');
