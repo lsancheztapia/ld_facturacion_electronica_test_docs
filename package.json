@@ -1,0 +1,22 @@
+{
+  "name": "ld_facturacion_electronica_test_docs",
+  "version": "1.0.0",
+  "description": "Factura Electronica ejemplos",
+  "main": "send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsancheztapia/ld_facturacion_electronica_test_docs.git"
+  },
+  "author": "Luis Sanchez",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lsancheztapia/ld_facturacion_electronica_test_docs/issues"
+  },
+  "homepage": "https://github.com/lsancheztapia/ld_facturacion_electronica_test_docs#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}

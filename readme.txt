@@ -1,3 +1,6 @@
+==================
+ PHP:
+==================
 Probando nota de credito:
 1. creando una boleta:
 php send.php 20509075205-03-BB11-00000002.txt boleta
@@ -20,3 +23,14 @@ php send.php 20509075205-03-BB11-00000003.txt boleta
 
 2. generando la nota de debito para esa boleta
 php send.php 20509075205-08-BB11-00000002.txt notadebito
+
+
+==================
+ Nodejs
+==================
+
+Pimero se debe tener instalado el nodejs (https://nodejs.org/en/) , luego los paquetes que se necesitan ( npm install )
+
+Probando una factura
+node send.js 20509075205-01-FF11-00000001.txt factura
+
