@@ -7,7 +7,7 @@ let documentType = process.argv[3]
 
 if ( fs.existsSync( file ) ) {
   if ( ! documentType ) { documentType = 'factura'}
-  fs.readFile( file, 'utf8', function(err, contents) {
+  fs.readFile( file, function(err, contents) {
 //    console.log(contents)
     request({
       url: 'https://prueba-fact.logicaldesign.pe/api/send-document',
