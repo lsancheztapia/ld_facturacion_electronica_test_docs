@@ -14,7 +14,7 @@
 //	 $post['batch'] = 'yes';
 
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, 'http://factura.logicaldesign.pe/api/send-document');
+    curl_setopt($ch, CURLOPT_URL, 'https://prueba-fact.logicaldesign.pe/api/send-document');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post));
     $response = curl_exec($ch);
