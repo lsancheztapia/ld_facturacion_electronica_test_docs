@@ -25,6 +25,14 @@ php send.php 20509075205-03-BB11-00000003.txt boleta
 php send.php 20509075205-08-BB11-00000002.txt notadebito
 
 
+Resúmen diario:
+php send.php  20524719585-RC-20171001-1.txt resumendiario
+
+
+Comunicación de baja:
+php send.php 20524719585-RA-20161001-1.txt comunicacionbaja
+
+
 ==================
  Nodejs
 ==================
