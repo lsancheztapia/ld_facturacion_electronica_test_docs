@@ -1,0 +1,41 @@
+{
+  "cabecera": {
+    "tipo_comprobante": "01",
+    "serie_comprobante": "F001",
+    "numero_comprobante": "942584",
+    "fecha_comprobante": "2018-08-23",
+    "codmoneda_comprobante": "PEN",
+    "tipo_comprobante_modificado": "01",
+    "num_comprobante_modificado": "F001-942594",
+    "notadebito_motivo_id": "01",
+    "notacredito_motivo_id": "01",
+    "cliente_tipodocumento": "6",
+    "cliente_numerodocumento": "20545331951",
+    "cliente_nombre": "Luis Sanchez",
+    "cliente_pais": "PE",
+    "cliente_ciudad": "Lima",
+    "cliente_direccion": "Calle las Calles 1234",
+    "observacion_documento": "Ninguna observacion en este documento",
+    "txt_subtotal_comprobante": "54.24",
+    "txt_igv_comprobante": "9.76",
+    "txt_total_comprobante": "64",
+    "txt_total_letras": "SON SESENTA Y CUATRO"
+  },
+  "detalle": [
+    {
+      "txtITEM":1,
+      "txtUNIDAD_MEDIDA_DET":"NIU",
+      "txtCANTIDAD_DET":"8",
+      "txtPRECIO_DET":"8",
+      "txtSUB_TOTAL_DET":"54.24",
+      "txtPRECIO_TIPO_CODIGO":"01",
+      "txtIGV":"9.76",
+      "txtISC":"0",
+      "txtIMPORTE_DET":"54.24",
+      "txtCOD_TIPO_OPERACION":"10",
+      "txtCODIGO_DET":"u",
+      "txtDESCRIPCION_DET":"u",
+      "txtPRECIO_SIN_IGV_DET":"6.78"
+    }
+  ]
+}
