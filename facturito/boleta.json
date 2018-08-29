@@ -1,0 +1,39 @@
+{
+  "cabecera": {
+    "tipo_comprobante": "03",
+    "serie_comprobante": "B001",
+    "numero_comprobante": "933031",
+    "fecha_comprobante": "2018-08-25",
+    "codmoneda_comprobante": "PEN",
+    "tipo_comprobante_modificado": "01",
+    "notadebito_motivo_id": "01",
+    "notacredito_motivo_id": "01",
+    "cliente_tipodocumento": "1",
+    "cliente_numerodocumento": "09664579",
+    "cliente_nombre": "Luis",
+    "cliente_pais": "PE",
+    "cliente_ciudad": "Lima",
+    "cliente_direccion": "las calles",
+    "observacion_documento": "",
+    "txt_subtotal_comprobante": "54.24",
+    "txt_igv_comprobante": "9.76",
+    "txt_total_comprobante": "64",
+    "txt_total_letras": "SON SESENTA Y CUATRO"
+  },
+  "detalle": [
+    {
+      "txtITEM":1,
+      "txtUNIDAD_MEDIDA_DET":"NIU",
+      "txtCANTIDAD_DET":"8",
+      "txtPRECIO_DET":"8",
+      "txtSUB_TOTAL_DET":"54.24",
+      "txtPRECIO_TIPO_CODIGO":"01",
+      "txtIGV":"9.76","txtISC":"0",
+      "txtIMPORTE_DET":"54.24",
+      "txtCOD_TIPO_OPERACION":"10",
+      "txtCODIGO_DET":"8",
+      "txtDESCRIPCION_DET":"8",
+      "txtPRECIO_SIN_IGV_DET":"6.78"
+    }
+  ]
+}
