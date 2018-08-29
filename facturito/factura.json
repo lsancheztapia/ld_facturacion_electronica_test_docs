@@ -2,11 +2,10 @@
   "cabecera": {
     "tipo_comprobante": "01",
     "serie_comprobante": "F001",
-    "numero_comprobante": "942584",
+    "numero_comprobante": "1",
     "fecha_comprobante": "2018-08-23",
     "codmoneda_comprobante": "PEN",
     "tipo_comprobante_modificado": "01",
-    "num_comprobante_modificado": "F001-942594",
     "notadebito_motivo_id": "01",
     "notacredito_motivo_id": "01",
     "cliente_tipodocumento": "6",
@@ -37,5 +36,6 @@
       "txtDESCRIPCION_DET":"u",
       "txtPRECIO_SIN_IGV_DET":"6.78"
     }
-  ]
+  ],
+  "batch": false
 }
