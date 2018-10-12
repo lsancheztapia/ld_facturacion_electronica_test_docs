@@ -1,1 +1,0 @@
-php send.php archivo.json

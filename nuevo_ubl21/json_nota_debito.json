@@ -1,0 +1,147 @@
+{
+    "datos_de_la_nota_de_debito":{
+        "version_del_ubl":"v21",
+        "numeracion_conformada_por_serie_y_numero_correlativo":"F021",
+        "fecha_de_emision":"2018-08-23",
+        "hora_de_emision":"11:11:11",
+        "tipo_de_documento":"08",
+        "tipo_de_moneda_en_la_cual_se_emite_la_nota_de_debito":"PEN",
+        "fecha_de_vencimiento":"2018-08-24",
+        "tipo_de_documento_afectado": "01",
+        "serie_y_numero_de_documento_afectado":"F001-21",
+        "codigo_de_tipo_de_nota_de_debito":"01"
+    },
+
+    "guia_de_remision_relacionada":[
+        {
+            "numero_de_guia":"0001-002020",
+            "tipo_de_documento":"09"
+        }
+    ],
+
+    "otro_documento_relacionado":[
+        {
+            "numero_de_guia":"0001-002020",
+            "tipo_de_documento":"09"
+        }
+    ],
+
+    "datos_del_detalle_de_la_nota_de_debito__motivo_o_sustento":"Error en el total",
+
+    "datos_del_emisor":{
+        "numero_de_ruc":{
+            "numero_ruc":"20501973522",
+            "tipo_de_documento":"6"
+        },
+        "nombre_comercial":"PCR",
+        "apellidos_y_nombres_denominacion_o_razon_social":"Peru c"
+    },
+
+    "datos_adicionales_lugar_en_el_que_se_entrega_el_bien_o_se_presta_el_servicio":{
+        "codigo_del_domicilio_fiscal_o_de_local_anexo_del_emisor":"0001"
+    },
+
+    "datos_del_cliente_o_receptor":{
+        "tipo_y_numero_de_documento_de_identidad_del_adquirente_o_usuario":{
+            "numero_de_documento":"10417844358",
+            "tipo_de_documento":"6"
+        },
+        "apellidos_y_nombres_denominacion_o_razon_social_del_adquirente_o_usuario":"Pancho"
+    },
+
+    "informacion_adicional_gastos_art_37_renta___numero_de_placa_del_vehiculo":"B1F-945",
+
+    "datos_del_detalle_de_la_nota_de_debito":[
+        {
+            "numero_de_orden_del_item":"P011",
+            "unidad_de_medida_por_item_que_modifica":"CS",
+            "cantidad_de_unidades_por_item_que_modifica":"1",
+            "codigo_de_producto":"Cap-258963",
+            "codigo_producto_de_sunat":"51121703",
+            "descripcion_detallada_del_servicio_prestado_bien_vendido_o_cedido_en_uso_o_descripcion_segun_lo_dispuesto_en_el_rcp":"Inca kola 200 ml",
+            "valor_unitario_por_item_que_modifica":"100",
+            "precio_de_venta_unitario_por_item_que_modifica":{
+                "precio_de_venta_unitario": "118",
+                "codigo_de_tipo_de_precio":"01"
+            },
+            "afectacion_al_igv_por_item_que_modifica":{
+                "porcentaje_de_igv": 18,
+                "monto_de_igv":"18",
+                "afectacion_al_igv":"10"
+            },
+            "sistema_de_isc_por_item_que_modifica":{
+                "monto_de_isc":"0",
+                "tipo_de_sistema_de_isc":"02"
+            },
+            "valor_de_venta_por_item":"100",
+            "total_por_item": 118,
+            "descuentos_por_item":{
+                "monto_del_descuento":"0"
+            },
+            "valor_referencial_unitario_por_item_en_operaciones_no_onerosas_y_codigo" : {
+                "monto_de_valor_referencial_unitario": "0",
+                "codigo_de_tipo_de_precio": "02"
+            },
+            "informacion_adicional_a_nivel_de_item_gastos_intereses_hipotecarios_primera_vivienda":{
+                "nro_de_contrato":"201205170008",
+                "fecha_de_otorgamiento_del_credito":"2018-11-10"
+            },
+            "propiedades_adicionales": [
+                {
+                    "nombre_concepto_tributario": "alfanumerico hasta 100",
+                    "codigo_concepto_tributario": "1234",
+                    "valor_de_propiedad": "string",
+                    "periodo_de_usabilidad": {
+                        "fecha_inicio": "2018-08-20",
+                        "fecha_fin": "2018-08-31",
+                        "duracion": 11
+                    }
+                }
+            ]
+        }
+    ],
+
+    "totales":{
+        "total_valor_de_venta_exportacion":{
+            "monto":"10"
+        },
+        "total_valor_de_venta_operaciones_gravadas":{
+            "monto":"100"
+        },
+        "total_valor_de_venta_operaciones_inafectas":{
+            "monto":"0"
+        },
+        "total_valor_de_venta_operaciones_exoneradas":{
+            "monto":"0"
+        },
+        "total_valor_de_venta_operaciones_gratuitas":{
+            "total_valor_venta_operaciones_gratuitas":"0"
+        },
+        "total_descuentos":{
+            "monto":"0"
+        },
+        "sumatoria_igv":{
+            "sumatoria_igv_amount":"18"
+        },
+        "sumatoria_isc":{
+            "sumatoria_isc_amount":"0"
+        },
+        "sumatoria_otros_tributos":{
+            "sumatoria_otros_tributos_amount":"0"
+        },
+        "descuentos_globales":"0",
+        "sumatoria_otros_cargos":"0",
+        "importe_total_de_la_venta_cesion_en_uso_o_del_servicio_prestado":"118"
+    },
+
+    "informacion_adicional_anticipos":{
+        "total_anticipos": "0"
+    },
+
+    "informacion_adicional":{
+        "tipo_de_operacion":"01",
+        "codigo_interno_generado_por_el_software_de_facturacion":"",
+        "leyendas":[]
+    }
+
+}
