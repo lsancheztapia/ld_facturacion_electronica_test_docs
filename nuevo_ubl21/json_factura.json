@@ -1,157 +1,63 @@
 {
-    "datos_de_la_factura_electronica":{
-        "version_del_ubl":"v21",
-        "numeracion_conformada_por_serie_y_numero_correlativo":"F001",
-        "fecha_de_emision":"2018-08-23",
-        "hora_de_emision":"11:11:11",
-        "tipo_de_documento":"01",
-        "tipo_de_moneda_en_la_cual_se_emite_la_factura_electronica":"PEN",
-        "fecha_de_vencimiento":"2018-08-24"
+    "version_del_ubl": "v21",
+    "serie_y_numero_correlativo": "F001-1",
+    "fecha_de_emision": "2018-10-09",
+    "hora_de_emision": "10:11:11",
+    "tipo_de_documento":"01",
+    "tipo_de_moneda": "PEN",
+    "fecha_de_vencimiento":"2018-08-30",
+    "datos_del_emisor": {
+        "codigo_del_domicilio_fiscal": "0001"
     },
-
-    "datos_del_emisor":{
-        "numero_de_ruc":{
-            "numero_ruc":"20501973522",
-            "tipo_de_documento":"6"
-        },
-        "nombre_comercial":"PCR",
-        "apellidos_y_nombres_denominacion_o_razon_social":"Peru c"
-    },
-
-    "datos_adicionales_lugar_en_el_que_se_entrega_el_bien_o_se_presta_el_servicio":{
-        "codigo_del_domicilio_fiscal_o_de_local_anexo_del_emisor":"0001"
-    },
-
     "datos_del_cliente_o_receptor":{
-        "tipo_y_numero_de_documento_de_identidad_del_adquirente_o_usuario":{
-            "numero_de_documento":"10417844358",
-            "tipo_de_documento":"6"
-        },
-        "apellidos_y_nombres_denominacion_o_razon_social_del_adquirente_o_usuario":"Pancho"
+        "numero_de_documento": "10414711225",
+        "tipo_de_documento": "6",
+        "apellidos_y_nombres_o_razon_social": "EMPRESA XYZ S.A.",
+        "direccion": "Av. 2 de Mayo",
+        "ubigeo": "150101"
     },
-
-    "guia_de_remision_relacionada":[
-        {
-            "numero_de_guia":"0001-002020",
-            "tipo_de_documento":"09"
-        }
-    ],
-
-    "otro_documento_relacionado":[
-        {
-            "numero_de_guia":"0001-002020",
-            "tipo_de_documento":"09"
-        }
-    ],
-
-    "informacion_adicional_gastos_art_37_renta___numero_de_placa_del_vehiculo":"B1F-945",
-
+    "totales": {
+        "total_operaciones_gravadas": 400,
+        "sumatoria_igv": 72,
+        "total_de_la_venta": 472
+    },
     "items":[
         {
-            "datos_del_detalle_o_item":{
-                "numero_de_orden_del_item":"1",
-                "unidad_de_medida_por_item":"CS",
-                "cantidad_de_unidades_por_item":"1",
-                "codigo_de_producto": "1",
-                "codigo_producto_de_sunat":"51121703"
-            },
-            "informacion_adicional_gastos_art_37_renta":{
-                "descripcion_detallada_del_servicio_prestado_bien_vendido_o_cedido_en_uso_indicando_las_caracteristicas":"Inca Kola 250 ml",
-                "valor_unitario_por_item":"100",
-                "precio_de_venta_unitario_por_item_y_codigo":{
-                    "codigo_de_tipo_de_precio":"01",
-                    "precio_de_venta_unitario":"118"
-                },
-                "valor_referencial_unitario_por_item_en_operaciones_no_onerosas_y_codigo":{
-                    "monto_de_valor_referencial_unitario":"0"
-                },
-                "afectacion_al_igv_por_item":{
-                    "porcentaje_de_igv": 18,
-                    "monto_de_igv": 18,
-                    "afectacion_al_igv":"10"
-                },
-                "sistema_de_isc_por_item":{
-                    "monto_de_isc":"0",
-                    "tipo_de_sistema_de_isc":"02"
-                },
-                "valor_de_venta_por_item": 100,
-                "total_por_item": 118,
-                "descuentos_por_item":{
-                    "monto_del_descuento":"0"
-                }
-            },
-            "informacion_adicional_a_nivel_de_item_gastos_intereses_hipotecarios_primera_vivienda":{
-                "nro_de_contrato":"201205170008",
-                "fecha_de_otorgamiento_del_credito":"2017-05-17"
-            },
-            "propiedades_adicionales": [
-                {
-                    "nombre_concepto_tributario": "alfanumerico hasta 100",
-                    "codigo_concepto_tributario": "1234",
-                    "valor_de_propiedad": "string",
-                    "periodo_de_usabilidad": {
-                        "fecha_inicio": "2018-08-20",
-                        "fecha_fin": "2018-08-31",
-                        "duracion": 11
-                    }
-                }
-            ]
+            "codigo_interno_del_producto": "P0121",
+            "descripcion_detallada":"Inca Kola 250 ml",
+            "codigo_producto_de_sunat": "51121703",
+            "unidad_de_medida": "NIU",
+            "cantidad_de_unidades": 1,
+            "valor_unitario": 100,
+            "codigo_de_tipo_de_precio":"01",
+            "precio_de_venta_unitario_valor_referencial": 118,
+            "afectacion_al_igv": "10",
+            "porcentaje_de_igv": 18,
+            "monto_de_igv": 18,
+            "valor_de_venta_por_item": 100,
+            "total_por_item": 118
+        },
+        {
+            "codigo_interno_del_producto": "P0141",
+            "descripcion_detallada":"Detergente Arial 1 Kg",
+            "codigo_producto_de_sunat": "51121722",
+            "unidad_de_medida": "NIU",
+            "cantidad_de_unidades": 4,
+            "valor_unitario": 100,
+            "codigo_de_tipo_de_precio":"01",
+            "precio_de_venta_unitario_valor_referencial": 118,
+            "afectacion_al_igv": "10",
+            "porcentaje_de_igv": 18,
+            "monto_de_igv": 72,
+            "valor_de_venta_por_item": 400,
+            "total_por_item": 472
         }
     ],
-
-    "totales":{
-        "total_valor_de_venta_operaciones_gravadas":{
-            "monto":"100"
-        },
-        "total_valor_de_venta_operaciones_inafectas":{
-            "monto":"0"
-        },
-        "total_valor_de_venta_operaciones_exoneradas":{
-            "monto":"0"
-        },
-        "total_valor_de_venta_operaciones_gratuitas":{
-            "total_valor_venta_operaciones_gratuitas":"0"
-        },
-        "total_descuentos":{
-            "monto":"0"
-        },
-        "sumatoria_igv":{
-            "sumatoria_igv_amount":"18"
-        },
-        "sumatoria_isc":{
-            "sumatoria_isc_amount":"0"
-        },
-        "sumatoria_otros_tributos":{
-            "sumatoria_otros_tributos_amount":"0"
-        },
-        "descuentos_globales":"0",
-        "sumatoria_otros_cargos":"0",
-        "importe_total_de_la_venta_cesion_en_uso_o_del_servicio_prestado":"118"
-    },
-
-    "detraccion": {
-        "cuenta_banco_nacion": "192999821",
-        "codigo_producto": "004",
-        "porcentaje_detraccion": 100.00,
-        "monto_detraccion": 200.00
-    },
-
-    "informacion_adicional_anticipos":{
-        "informacion_prepagado_o_anticipado":{
-            "serie_y_numero_de_documento_que_se_realizo_el_anticipo":"123-123",
-            "tipo_de_comprobante_que_se_realizo_el_anticipo":"",
-            "tipo_de_documento_del_emisor_del_anticipo":""
-        },
-        "total_anticipos":"0"
-    },
-
     "informacion_adicional":{
-        "tipo_de_operacion":"0101",
+        "tipo_de_operacion": "0101",
         "leyendas":[]
     },
-
     "extras":{
-        "logo":""
+        "forma_de_pago": "Efectivo"
     }
-
 }

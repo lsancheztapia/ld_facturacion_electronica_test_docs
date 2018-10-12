@@ -22,10 +22,6 @@
       die('');
     }
 
-//    $response = curl_exec($ch);
-
-print_r($response);
-die();
     $responseArray = json_decode($response);
     if ( $responseArray  ) {
       print_r ($responseArray);
