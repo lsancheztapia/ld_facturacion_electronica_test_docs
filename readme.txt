@@ -188,11 +188,6 @@ node send.js 20509075205-01-FF11-00000001.txt factura
 33	Dirección del Cliente : 
 34	Correo del cliente : 
 35	Tipo de cambio : 
-36	not defined : 
-37	not defined : 
-38	not defined : 
-39	not defined : 
-40	not defined : 
 
 ==> Item
 1	Unidad de medida por item : 
@@ -206,4 +201,3 @@ node send.js 20509075205-01-FF11-00000001.txt factura
 9	Valor de Venta por Item : 
 10	Numero de orden del item : 
 11	Valor referencial unitario por item en operaciones no onerosas y codigo : 
-12	not defined : 
