@@ -149,3 +149,61 @@ node send.js 20509075205-01-FF11-00000001.txt factura
 34	vacío : 
 35	tipo de cambio : 
 
+=========================================
+ Nota de Crédito - Nombres de los campos
+=========================================
+==> Cabecera
+1	Fecha de  Emisión : 
+2	vacío : 
+3	Apellidos y nombres, denominación o razón social : 
+4	Nombre Comercial : 
+5	Domicilio Fiscal : 
+6	Numero de RUC : 
+7	Codigo del tipo de nota de credito electronica : 
+8	Numeracion, conformada por serie y numero correlativo : 
+9	Tipo y numero de documento de identidad del adquiriente o usuario : 
+10	Apelidos y Nombres o denominación o razon social del adquiriente o usuario : 
+11	Motivo o sustento : 
+12	Total valor de venta - operaciones gravadas : 
+13	Total valor de venta - operaciones inafectas : 
+14	Total valor de venta - operaciones exoneradas : 
+15	Sumatoria IGV : 
+16	Sumatoria ISC : 
+17	Sumatoria otros tributos : 
+18	Sumatoria otros Cargos : 
+19	Total descuentos : 
+20	Importe total : 
+21	Tipo de moneda en la cual se emite la nota de credito electronica : 
+22	Serie y numero del documento que modifica : 
+23	Tipo de documento del documento que modifica : 
+24	Documento de referencia - Guia de remision : 
+25	Documento de referencia - otros documentos relacionados : 
+26	Version del UBL : 
+27	Version de la estructura del documento : 
+28	Orden de Compra : 
+29	Condiciones de Pago : 
+30	Fecha de Vencimiento : 
+31	Monto en Letras : 
+32	Observación : 
+33	Dirección del Cliente : 
+34	Correo del cliente : 
+35	Tipo de cambio : 
+36	not defined : 
+37	not defined : 
+38	not defined : 
+39	not defined : 
+40	not defined : 
+
+==> Item
+1	Unidad de medida por item : 
+2	Cantidad de unidades por item : 
+3	Codigo del producto : 
+4	Descripcion detallada del servicio prestado, bien vendido o cedido en uso indicando las caracteristicas : 
+5	Valor unitario por item : 
+6	Precio de venta unitario por item y codigo : 
+7	Afectacion al IGV por item : 
+8	Sistema de ISC Por Item : 
+9	Valor de Venta por Item : 
+10	Numero de orden del item : 
+11	Valor referencial unitario por item en operaciones no onerosas y codigo : 
+12	not defined : 
