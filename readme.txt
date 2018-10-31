@@ -1,12 +1,19 @@
 ==================
  PHP:
 ==================
-Probando nota de credito:
+Probando nota de credito (Descuento por item):
 1. creando una boleta:
 php send.php 20509075205-03-BB11-00000002.txt boleta
 
 2. generando la nota de credito para esa boleta
 php send.php 20509075205-07-BB11-00000001.txt notacredito
+
+Probando nota de credito (Anulacion de la operacion):
+1. creando una boleta:
+php send.php 20509075205-03-BB11-00000002.txt boleta
+
+2. generando la nota de credito para esa boleta
+php send.php 20509075205-07-BB11-00000002.txt notacredito
 
 
 Probando nota de debito
